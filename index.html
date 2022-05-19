@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin Lockett Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c14cc33cd1.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <!--  HEADER  -->
+    <header class='header'>
+
+    <!--  NAVIGATION  -->
+        <div class="logo">
+            <img src="img/logo_sm.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+
+    <!--  INTRODUCTION  SECTION  -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Kevin Lockett</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">full-stack developer</p>
+            <img class="intro__img" src="img/klockett.png" alt="Kevin Lockett in a blue sweater">
+        </section>
+    </header>
+    <!--  </HEADER >  -->
+
+    <!-- CAPSTONE2 SECTION -- "WHISTLER APP" -->
+    <section class="capstone2" id="capstone2">
+        <h2 class="section__title section__title--capstone">Whistler App</h2>
+        <div class="capstone__image">
+            <a href="https://whistler-client.herokuapp.com/" class="image" target="_blank"><img src="img/capstone2.jpg" alt="landing page for Whistler app, Kevin's second capstone project" /></a>
+        </div>
+        <div class="capstone__details">
+            <div class="capstone__detail">
+                <h3>Final Capstone Project</h3>
+                <p>"Whistler" was my final capstone project for Nashville Software School. It utilizes HTML5, CSS3, JavaScript and React.js on the client side, and Python, Django, and SQL on the server side. Both front-end and back-end are deployed to <a href="https://whistler-client.herokuapp.com/" target="_blank">Heroku</a>, so you can try out the app there, or visit <a class="social-list__link" href="https://github.com/kevinlockett" target="_blank">GitHub</a> to view the code.</p>
+            </div> <!-- / capstone__detail -->
+        </div> <!-- / capstone__details -->
+        
+        <a href="#work" class="btn">More Projects</a>
+    </section>
+
+    <!-- ABOUT ME SECTION -- "WHO I AM" -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Full-stack developer in Greater Nashville</p>
+        
+        <div class="about-me__body">
+            <p>I am a retired United States Air Force Chaplain.  I proudly served alongside our nation's sons and daughters in all branches of the armed forces for 23 years, 12 assignments in 11 states and 4 foreign countries including 3 deployments. Now I am beginning a new adventure as a full-stack web developer.</p>
+            <p>During my time in the Air Force, one of my most unique assignments was one-year as a graduate student at Auburn University where I earned a Master of Science in Information Technology.  I was introduced to network security and began entry level coding in HTML, CSS, Visual Basic, Java, JSP, and XML.  It was love at first byte!</p>
+            <p>I continued to dabble in web-development, creating sites for family, friends, and some not-for-profit organizations over the years, but I was hungry for more.  When I finally stepped down from the Air Force, I began looking for a way to quickly get back into coding.</p>
+            <p>Nashville Software School provided a robust six-month, accelerated full-stack software development bootcamp in a simulated agile work environment.  NSS gave me the opportunity to learn by doing.  I collaborated with coworkers in pair programming and larger teams to develop web apps in HTML5, CSS3, JavaScript, React, SQl, Python, Django and more.</p>
+            <p>I love the challenges, the opportunity to create something new or continue to make improvements where others have already begun, to solve problems and puzzles coding presents.  I hope to continue to sharpen my skills and become the best developer I can be, and to make a positive difference for others along the way!</p>
+            <p>Oh, and I am a die-hard St. Louis Cardinals fan -- especially this year! As I begin a new adventure in web development, I am thrilled to see players like Yadi, Wainwright, and Pujols still bringing strength to the game and shaping the next generation as only seasoned veterans can.</p>
+        </div>
+        
+        <img class="about-me__img" src="img/kevin-2.png" alt="Kevin clowning around in his St. Louis Cardinals cap, tie, and zip-up hoody">
+    </section>
+
+    <!-- MY SERVICES SECTION -- "WHAT I DO" -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Front-end</h3>
+                <p>The front-end is everything the user sees and interacts with. My goal is to develop apps and websites that offer smooth, "frictionless" user experiences -- products that are intuitive and easy to use, with clean, modern, and eye-catching design.</p>
+            </div> <!-- / service -->
+            
+            <div class="service">
+                <h3>Back-end</h3>
+                <p>Everything the user sees on the frontend is generated through scripts running on a web server on the backend. I utilize server-side languages to write clean, secure applications to interact with databases and provide data connection with an application programming interface (API).</p>
+            </div> <!-- / service -->
+            
+            <div class="service">
+                <h3>CMS</h3>
+                <p>Content Management Systems allow you to get online with an SEO friendly, professionally designed site in half the time. That's why nearly 36% of sites on the internet today are WordPress sites, and why Joomla! and Drupal account for over 2 million live sites. Let's talk about how a CMS might be your best solution.</p>
+            </div> <!-- / service -->
+        </div> <!-- / services -->
+        
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- TECHNOLOGY CAROUSEL SECTION -->
+    <section class="technology" id="technology">
+        <h2 class="section__title section__title--technology">Technologies I use</h2>
+        <div class="technology__wrapper">
+            <div class="technology__carousel">
+                <span style="--i:12">
+                    <img class="technology__icon" src="img/html.png" alt="HTML5 logo" />
+                </span>
+                <span style="--i:11">
+                    <img class="technology__icon" src="img/css.png" alt="CSS3 logo" />
+                </span>
+                <span style="--i:10">
+                    <img class="technology__icon" src="img/javascript.png" alt="JavaScript logo" />
+                </span>
+                <span style="--i:9">
+                    <img class="technology__icon" src="img/react.png" alt="React logo" />
+                </span>
+                <span style="--i:8">
+                    <img class="technology__icon" src="img/json.png" alt="JSON logo" />
+                </span>
+                <span style="--i:7">
+                    <img class="technology__icon" src="img/python.png" alt="Python logo" />
+                </span>
+                <span style="--i:6">
+                    <img class="technology__icon" src="img/django.png" alt="Django logo" />
+                </span>
+                <span style="--i:5">
+                    <img class="technology__icon" src="img/rest-api.png" alt="RESTful API logo" />
+                </span>
+                <span style="--i:4">
+                    <img class="technology__icon" src="img/mysql.png" alt="MySql logo" />
+                </span>
+                <span style="--i:3">
+                    <img class="technology__icon" src="img/sqlite.png" alt="SQLite logo" />
+                </span>
+                <span style="--i:2">
+                    <img class="technology__icon" src="img/github.png" alt="GitHub logo" />
+                </span>
+                <span style="--i:1">
+                    <img class="technology__icon" src="img/joomla.png" alt="joomla logo" />
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- MY WORK SECTION -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a href="martins_aquarium" class="portfolio__item">
+                <img src="img/martins_aquarium@2x.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 02 -->
+            <a href="leonids_toys" class="portfolio__item">
+                <img src="img/leonids_toys.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 03 -->
+            <a href="daily_journal" class="portfolio__item">
+                <img src="img/daily_journal.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 04 -->
+            <a href="deshawns_dogs" class="portfolio__item">
+                <img src="img/deshawns_dogs.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 05 -->
+            <a href="brewed_awakenings" class="portfolio__item">
+                <img src="img/brewed_awakenings.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 06 -->
+            <a href="kneel_diamonds" class="portfolio__item">
+                <img src="img/kneel_diamonds.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 07 -->
+            <a href="car_builder" class="portfolio__item">
+                <img src="img/car_builder.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 08 -->
+            <a href="sink_repair" class="portfolio__item">
+                <img src="img/sink_repairs.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 09 -->
+            <a href="penpal_society" class="portfolio__item">
+                <img src="img/penpal_society.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 10 -->
+            <a href="buttons_the_clown" class="portfolio__item">
+                <img src="img/buttons-the-clown.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 11 -->
+            <a href="honey_raes" class="portfolio__item">
+                <img src="img/honey_raes.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 12 -->
+            <a href="kandy_korner" class="portfolio__item">
+                <img src="img/kandy_korner.png" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <a href="mailto:kevin@lockett.io" class="footer__link">kevin@lockett.io</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://codepen.io/chlockett" target="_blank">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="http://dribbble.com" target="_blank">
+                    <i class="fab fa-dribbble"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/kevinlockett" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>
